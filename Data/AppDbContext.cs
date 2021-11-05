@@ -17,6 +17,11 @@ namespace FilmesApi.Data
                 .HasOne(endereco => endereco.Cinema) //possui uma propriedade Cinema
                 .WithOne(cinema => cinema.Endereco)  // e esta propriedade Cinema possui um Endereço
                 .HasForeignKey<Cinema>(cinema => cinema.EnderecoId); // e o Cinema possui referência a Endereço através de EnderecoId (ForeignKey)
+        
+            builder.Entity<Cinema>()
+                .HasOne(cinema => cinema.Gerente)
+                .WithMany(gerente => gerente.Cinemas)
+                .HasForeignKey(cinema => cinema.GerenteId); // como não utilizamos HasForeignKey<TIPO>, significa que estamos referenciando CINEMA, a entidade inicial.
         }
 
         public DbSet<Filme> Filmes { get; set; }

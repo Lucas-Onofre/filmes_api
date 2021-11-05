@@ -7659,11 +7659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\filmesapi\\FilmesApi.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj",
       "projectName": "FilmesApi",
-      "projectPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\filmesapi\\FilmesApi.csproj",
+      "projectPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\filmesapi\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
