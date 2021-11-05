@@ -85,6 +85,20 @@ namespace FilmesApi.Migrations
                     b.ToTable("Enderecos");
                 });
 
+            modelBuilder.Entity("FilmesApi.Models.Gerente", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Gerentes");
+                });
+
             modelBuilder.Entity("FilmesAPI.Models.Cinema", b =>
                 {
                     b.HasOne("FilmesApi.Models.Endereco", "Endereco")
