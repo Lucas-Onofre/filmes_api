@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GqSiKlI+e0/hpDN7Mz1OWDQw2rb6a6lQ2t01p/KWa3I3TR+/qIrUP9+f9BdECHQYJMZKMWg7Z1XBKwOmfK6GZQ==",
+  "dgSpecHash": "Qrn2iANcVr6BOC17+TeTtP73x8c/UJQI9R0splHhf401t92JCKa5/TaVXDtlAeqJirqIJhq2We/Z9n5t4JXsRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\filmesapi\\FilmesApi.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

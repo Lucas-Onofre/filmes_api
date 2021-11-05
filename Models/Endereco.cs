@@ -13,6 +13,6 @@ namespace FilmesApi.Models
         public string Bairro { get; set; }
         public int Numero { get; set; }
         [JsonIgnore]
-        public virtual Cinema Cinema { get; set; }  
+        public virtual Cinema Cinema { get; set; }  //a palavra reservada "virtual", neste caso, está dizendo que esta é uma propriedade LAZY
     }
 }

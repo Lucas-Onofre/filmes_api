@@ -13,10 +13,10 @@ namespace FilmesApi.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<Endereco>()
-                .HasOne(endereco => endereco.Cinema)
-                .WithOne(cinema => cinema.Endereco)
-                .HasForeignKey<Cinema>(cinema => cinema.EnderecoId);
+            builder.Entity<Endereco>() // a entidade endereço
+                .HasOne(endereco => endereco.Cinema) //possui uma propriedade Cinema
+                .WithOne(cinema => cinema.Endereco)  // e esta propriedade Cinema possui um Endereço
+                .HasForeignKey<Cinema>(cinema => cinema.EnderecoId); // e o Cinema possui referência a Endereço através de EnderecoId (ForeignKey)
         }
 
         public DbSet<Filme> Filmes { get; set; }
