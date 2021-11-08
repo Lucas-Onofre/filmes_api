@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using FilmesApi.Models;
 
 namespace FilmesAPI.Models
 {
@@ -18,5 +19,6 @@ namespace FilmesAPI.Models
         public string Diretor { get; set; }
         public string Genero { get; set; }
         public int ClassificacaoEtaria { get; set; }
+        public virtual List<Sessao> Sessoes { get; set; }   
     }
 }
