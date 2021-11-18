@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj": {}
+    "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso3\\FilmesApi\\FilmesApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj": {
+    "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso3\\FilmesApi\\FilmesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj",
+        "projectUniqueName": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso3\\FilmesApi\\FilmesApi.csproj",
         "projectName": "FilmesApi",
-        "projectPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj",
+        "projectPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso3\\FilmesApi\\FilmesApi.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\obj\\",
+        "outputPath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso3\\FilmesApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -83,6 +83,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
+            },
+            "fluentResults": {
+              "target": "Package",
+              "version": "[2.5.0, )"
             }
           },
           "imports": [

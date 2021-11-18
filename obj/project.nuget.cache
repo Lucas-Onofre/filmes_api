@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "Qrn2iANcVr6BOC17+TeTtP73x8c/UJQI9R0splHhf401t92JCKa5/TaVXDtlAeqJirqIJhq2We/Z9n5t4JXsRQ==",
+  "dgSpecHash": "LKSjs3VjhIKl3o3O/9GzgCKonPYSSkXg0A5UxyOnJjg+rkG1fvQLH5B2wVt/ykVSSdPx9yWNFuav8KgvcwQy+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso2\\FilmesApi\\FilmesApi.csproj",
+  "projectFilePath": "C:\\Users\\lucas\\Desktop\\Alura\\DOTNET\\Filmes-API-Curso3\\FilmesApi\\FilmesApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lucas\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
+    "C:\\Users\\lucas\\.nuget\\packages\\fluentresults\\2.5.0\\fluentresults.2.5.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lucas\\.nuget\\packages\\k4os.compression.lz4\\1.1.11\\k4os.compression.lz4.1.1.11.nupkg.sha512",
